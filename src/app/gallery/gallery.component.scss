@@ -1,0 +1,722 @@
+/*Galerie Première Catégorie*/
+
+#Categorie1 {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas: "pica pica picb picb picc picc picd picd"
+                       "pice picf picf picg picc picc pici picj"
+                       "pice picl picm picg pich pich pici pick"
+                       "picn picn picm pico pico picp picp pick";
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  position: relative;
+  top: 85px;
+  grid-gap: 2px;
+}
+
+#Categorie1 > .Pic1 {
+  grid-area: pica;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/paysage.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic2 {
+  grid-area: picb;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/paysage2.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic3 {
+  grid-area: picc;
+  background-color: #ffff64;
+  background-image: url('./../../assets/paysage3.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic4 {
+  grid-area: picd;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/paysage4.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic5 {
+  grid-area: pice;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/paysage5.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic6 {
+  grid-area: picf;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/paysage6.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic7 {
+  grid-area: picg;
+  background-color: #ffff64;
+  background-image: url('./../../assets/paysage7.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic8 {
+  grid-area: pich;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/paysage8.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic9 {
+  grid-area: pici;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/paysage9.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic10 {
+  grid-area: picj;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/paysage10.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic11 {
+  grid-area: pick;
+  background-color: #ffff64;
+  background-image: url('./../../assets/paysage11.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic12 {
+  grid-area: picl;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/paysage12.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic13 {
+  grid-area: picm;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/paysage13.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic14 {
+  grid-area: picn;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/paysage14.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic15 {
+  grid-area: pico;
+  background-color: #ffff64;
+  background-image: url('./../../assets/paysage15.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic16 {
+  grid-area: picp;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/paysage16.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie1 > .Pic1:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic2:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic3:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic4:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic5:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic6:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic7:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic8:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic9:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic10:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic11:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic12:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic13:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic14:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic15:hover{
+  opacity: .8;
+}
+
+#Categorie1 > .Pic16:hover{
+  opacity: .8;
+}
+
+/*Galerie Deuxième Catégorie*/
+
+#Categorie2 {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas: "pica pica picb picb picc picc picd picd"
+                       "pice picf picf picg picc picc pici picj"
+                       "pice picl picm picg pich pich pici pick"
+                       "picn picn picm pico pico picp picp pick";
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-gap: 2px;
+  margin-top: 95px;
+
+}
+
+#Categorie2 > .Pic1 {
+  grid-area: pica;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/panda.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic2 {
+  grid-area: picb;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/panda2.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic3 {
+  grid-area: picc;
+  background-color: #ffff64;
+  background-image: url('./../../assets/panda3.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic4 {
+  grid-area: picd;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/panda4.png');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic5 {
+  grid-area: pice;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/panda5.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic6 {
+  grid-area: picf;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/panda6.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic7 {
+  grid-area: picg;
+  background-color: #ffff64;
+  background-image: url('./../../assets/panda7.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic8 {
+  grid-area: pich;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/panda8.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic9 {
+  grid-area: pici;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/panda9.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic10 {
+  grid-area: picj;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/panda10.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic11 {
+  grid-area: pick;
+  background-color: #ffff64;
+  background-image: url('./../../assets/panda11.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic12 {
+  grid-area: picl;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/panda12.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic13 {
+  grid-area: picm;
+  background-color: #8ca0ff;
+  background-image: url('./../../assets/panda13.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+
+}
+
+#Categorie2 > .Pic14 {
+  grid-area: picn;
+  background-color: #ffa08c;
+  background-image: url('./../../assets/panda14.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic15 {
+  grid-area: pico;
+  background-color: #ffff64;
+  background-image: url('./../../assets/panda15.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic16 {
+  grid-area: picp;
+  background-color: #8cffa0;
+  background-image: url('./../../assets/panda16.jpg');
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#Categorie2 > .Pic1:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic2:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic3:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic4:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic5:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic6:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic7:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic8:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic9:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic10:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic11:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic12:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic13:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic14:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic15:hover{
+  opacity: .8;
+}
+
+#Categorie2 > .Pic16:hover{
+  opacity: .8;
+}
+
+/*Galerie Troisième Catégorie*/
+
+#Categorie3 {
+display: grid;
+width: 100%;
+height: 100vh;
+grid-template-areas: "pica pica picb picb picc picc picd picd"
+                     "pice picf picf picg picc picc pici picj"
+                     "pice picl picm picg pich pich pici pick"
+                     "picn picn picm pico pico picp picp pick";
+grid-template-rows: 25% 25% 25% 25%;
+grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+grid-gap: 2px;
+margin-top: 10px;
+
+}
+
+#Categorie3 > .Pic1 {
+grid-area: pica;
+background-color: #8ca0ff;
+background-image: url('./../../assets/city.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic2 {
+grid-area: picb;
+background-color: #ffa08c;
+background-image: url('./../../assets/city2.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic3 {
+grid-area: picc;
+background-color: #ffff64;
+background-image: url('./../../assets/city3.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic4 {
+grid-area: picd;
+background-color: #8cffa0;
+background-image: url('./../../assets/city4.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic5 {
+grid-area: pice;
+background-color: #8ca0ff;
+background-image: url('./../../assets/city5.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic6 {
+grid-area: picf;
+background-color: #ffa08c;
+background-image: url('./../../assets/city6.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic7 {
+grid-area: picg;
+background-color: #ffff64;
+background-image: url('./../../assets/city7.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic8 {
+grid-area: pich;
+background-color: #8cffa0;
+background-image: url('./../../assets/city8.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic9 {
+grid-area: pici;
+background-color: #8ca0ff;
+background-image: url('./../../assets/city9.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic10 {
+grid-area: picj;
+background-color: #ffa08c;
+background-image: url('./../../assets/city10.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic11 {
+grid-area: pick;
+background-color: #ffff64;
+background-image: url('./../../assets/city11.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic12 {
+grid-area: picl;
+background-color: #8cffa0;
+background-image: url('./../../assets/city12.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic13 {
+grid-area: picm;
+background-color: #8ca0ff;
+background-image: url('./../../assets/city13.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+
+}
+
+#Categorie3 > .Pic14 {
+grid-area: picn;
+background-color: #ffa08c;
+background-image: url('./../../assets/city14.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic15 {
+grid-area: pico;
+background-color: #ffff64;
+background-image: url('./../../assets/city15.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic16 {
+grid-area: picp;
+background-color: #8cffa0;
+background-image: url('./../../assets/city16.jpg');
+background-position: center;
+background-size: cover;
+cursor: pointer;
+}
+
+#Categorie3 > .Pic1:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic2:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic3:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic4:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic5:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic6:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic7:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic8:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic9:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic10:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic11:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic12:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic13:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic14:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic15:hover{
+opacity: .8;
+}
+
+#Categorie3 > .Pic16:hover{
+opacity: .8;
+}
+
+
+/*MODAL*/
+
+#modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+#modal-content {
+margin: auto;
+display: block;
+width: 85%;
+max-width: 700px;
+height: 65vh;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+}
+
+/* The Close Button */
+.close {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #f1f1f1;
+font-size: 40px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+color: #bbb;
+text-decoration: none;
+cursor: pointer;}
